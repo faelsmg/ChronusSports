@@ -1,0 +1,106 @@
+
+body {
+    background-color: #0D0035;
+}
+/**************************************/
+.namidia-inativo .namidia-texto {
+    display: none;
+}
+.header-namidia {
+    margin-bottom: 110px;
+    text-align: center;
+}
+.header-namidia h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #EEEEEE;
+}
+.namidia-texto {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    max-width: 300px;
+}
+.namidia-texto h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #424242;
+    margin-bottom: 15px;
+}
+.namidia-texto p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #424242;
+    margin-bottom: 15px;
+}
+.botao-texto button{
+    align-items: center;
+    
+    gap: 10px;
+    
+    width: 170px;
+    height: 40px;
+    
+    /* gradient/gradient 01 */
+    
+    background: linear-gradient(322.68deg, #803EB4 36.47%, #4F25CC 92.31%);
+    border-radius: 16px;
+    color: #EEEEEE;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header-namidia-texto {
+    border-bottom: 1px solid #5C5C5C;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.geral-namidia-texto {
+    background: #EEEEEE;
+    width: 370px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: -25px;
+}
+.slider-namidia-item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.slider-namidia {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    max-width: 1200px;
+}
+.imagem-namidia img {
+    max-width: 100%;
+}
+.namidia-inativo {
+    max-width: 200px;
+}
+.namidia-ativo {
+    width: 800px;
+}
+
+
+

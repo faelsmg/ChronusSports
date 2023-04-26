@@ -1,0 +1,53 @@
+
+body {
+    background-color: #0D0035;
+}
+/********************************/
+
+.header-recurso h2 {
+    font-weight: 900;
+    font-size: 58px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #EEEEEE;
+}
+.textos-recurso h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #00E4FF;
+    margin-bottom: 18px;
+}
+.textos-recurso p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #EEEEEE;    
+}
+.item-recurso img {
+    width: 100px;
+}
+.item-recurso {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 600px;
+}
+.recurso-col-2 img {
+    max-width: 100%;
+}
+.conteudo-recursos {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+.recurso-col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}

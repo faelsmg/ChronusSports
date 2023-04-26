@@ -1,0 +1,38 @@
+
+body {
+    background-color: #0D0035;
+}
+
+/***************************************/
+.header-lancamentos {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.header-lancamentos h2 {
+    font-weight: 900;
+    font-size: 58px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #EEEEEE;
+}
+.carrossel-lancamento-pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-lancamento img {
+    max-width: 100%;
+}
+.single-lancamento {
+    width: 18%;
+}
+.single-lancamento img {
+    filter: sepia(100%) hue-rotate(190deg) saturate(900%);
+}
+.slide-ativo {
+    width: 450px;
+    width: 28%;
+}
+.slide-ativo img {
+    filter: unset !important;
+}

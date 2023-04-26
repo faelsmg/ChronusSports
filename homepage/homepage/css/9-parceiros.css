@@ -1,0 +1,57 @@
+
+
+body {
+    background-color: #0D0035;
+}
+/****************************/
+.header-parceiros {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.header-parceiros h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #EEEEEE;
+    margin-bottom: 30px;
+}
+.header-parceiros p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.item-slider-parceiro {
+    width: 170px;
+    height: 181px;
+    left: 575px;
+    top: 289px;
+    background: #0D1A4B;
+    box-shadow: 7px 9px 137px -25px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-slider-parceiro img {
+    max-width: 100%;
+}
+.item-slider-parceiro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.slider-parceiros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}

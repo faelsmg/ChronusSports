@@ -1,0 +1,75 @@
+
+
+body {
+    background-color: #0D0035;
+}
+
+/****************************/
+.header-cta-2-texto h2 {
+    font-weight: 900;
+    font-size: 45px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #EEEEEE;
+}
+.header-cta-2-texto span {
+    color: #00E4FF;
+}
+.cta-2-texto p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #EEEEEE;
+    margin-bottom: 65px;
+}
+.cta-2-texto {
+    max-width: 570px;
+}
+.cta-2-img {
+    max-width: 500px;
+}
+.cta-2-img img {
+    max-width: 100%;
+}
+.content-cta-2 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.header-cta-2-texto {
+    margin-bottom: 25px;
+}
+
+.btn-roxo-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 170px;
+    height: 56px;        
+    background: linear-gradient(322.68deg, #803EB4 36.47%, #4F25CC 92.31%);
+    border-radius: 16px;
+    color: #EEEEEE;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-transparente-1 {
+    font-size: 16px;
+    background: none;
+    color: #EEEEEE;
+    font-weight: 300;
+    align-items: center;
+    gap: 10px;
+    width: 170px;
+    height: 53px;
+    border: 1px solid #803EB4;
+    border-radius: 16px;
+}
+.botoes-cta-1 {
+    display: flex;
+    gap: 20px;
+}

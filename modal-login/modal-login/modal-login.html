@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/configuracoes.css">
+    <link rel="stylesheet" href="/css/geral.css">
+    <title>Home</title>
+
+
+    <style>
+        
+        .titulo-header {
+            text-align: center;
+        }
+
+        .titulo-header p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+            color: #EEEEEE;
+        }
+        .pai-modal-login {
+            position: absolute;
+            width: 398px;
+            height: 520px;
+            background: #131740;
+            opacity: 0.9;
+            border: 1px solid #CF2D2D;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+        }
+        .titulo-header {
+            margin-bottom: 50px;
+        }
+        .tipos-login a {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #747474;
+            width: 115px;
+            text-align: center;
+        }
+        .tipo-login-ativo {
+            color: #FFFFFF !important;
+            border-bottom: 3px solid #4F26CC;
+            padding-bottom: 10px;
+        }
+        .header-modal-login {
+            margin-bottom: 50px;
+        }
+        .tipos-login {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .content-interno-modal-login {
+            width: 330px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="pai-modal-login">
+       <div class="content-interno-modal-login">
+            <div class="header-modal-login">
+                <div class="titulo-header">
+                    <p>LOGIN</p>
+                </div>
+                <div class="tipos-login">
+                    <a class="tipo-login-ativo">Cliente</a>
+                    <a>Parceiro</a>
+                </div>
+            </div>
+            <div class="content-modal-login">
+                <h1>conteudo do input</h1>
+            </div>
+       </div>
+    </div>
+
+
+</body>
+</html>

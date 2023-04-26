@@ -1,0 +1,35 @@
+
+body {
+    background-color: #0D0035;
+}
+/**************************/
+.modalidades-carrossel {
+    max-width: 1200px;
+    margin: auto;
+}
+.modalidade-header {
+    margin-bottom: 85px;
+    text-align: center;
+}
+.modalidade-header h2 {
+    font-weight: 900;
+    font-size: 58px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase; 
+    color: #EEEEEE;
+}
+.slide-modalidade-item {
+    text-align: center;
+}
+.slide-modalidade-item p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: none;
+}
+.slider-modalidades {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}

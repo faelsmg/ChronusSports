@@ -1,0 +1,52 @@
+
+.titulo-header {
+    text-align: center;
+}
+
+.titulo-header p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.pai-modal-login {
+    position: absolute;
+    width: 398px;
+    height: 520px;
+    background: #131740;
+    opacity: 0.9;
+    border: 1px solid #CF2D2D;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.titulo-header {
+    margin-bottom: 50px;
+}
+.tipos-login a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #747474;
+    width: 115px;
+    text-align: center;
+}
+.tipo-login-ativo {
+    color: #FFFFFF !important;
+    border-bottom: 3px solid #4F26CC;
+    padding-bottom: 10px;
+}
+.header-modal-login {
+    margin-bottom: 50px;
+}
+.tipos-login {
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-interno-modal-login {
+    width: 330px;
+}
